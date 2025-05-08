@@ -159,9 +159,6 @@ export default {
               <div style="font-weight:bold;margin-bottom:5px">${data.name}</div>
               <div>平台: <span style="color:${getPlatformColor(data.platform)}">${data.platform}</span></div>
               <div>播出天數: ${data.days}天</div>
-              <div style="margin-top:5px;font-size:16px;font-weight:bold;color:#2c7be5">
-                總播放量: ${data.totalViews}億
-              </div>
             `;
           }
         },
